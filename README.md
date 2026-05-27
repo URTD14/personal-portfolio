@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <a href="https://personal-portfolio-brown-rho.vercel.app"><img src="https://img.shields.io/badge/Live_Site-F5ECD7?style=for-the-badge&logo=vercel&logoColor=2C2C2A&labelColor=F5ECD7&color=B04A1C" alt="Live Site" /></a>
+  <a href="https://dhyey-portfolio.vercel.app"><img src="https://img.shields.io/badge/Live_Site-F5ECD7?style=for-the-badge&logo=vercel&logoColor=2C2C2A&labelColor=F5ECD7&color=B04A1C" alt="Live Site" /></a>
   <a href="https://motion-videos-resume.vercel.app"><img src="https://img.shields.io/badge/Motion_Portfolio-F5ECD7?style=for-the-badge&logo=manim&logoColor=2C2C2A&labelColor=F5ECD7&color=B04A1C" alt="Motion Portfolio" /></a>
   <a href="https://github.com/URTD14"><img src="https://img.shields.io/badge/GitHub-2C2C2A?style=for-the-badge&logo=github&logoColor=F5ECD7&labelColor=2C2C2A&color=2C2C2A" alt="GitHub" /></a>
   <br/>
@@ -21,7 +21,7 @@ Personal portfolio of **Dhyey Patel** — Technical Co-founder @ GLOQONT, ML Eng
 
 Built with **Next.js 16** + **Tailwind CSS v4**, deployed on **Vercel**. Mirrors the warm parchment-and-rust aesthetic of my motion design portfolio.
 
-**Live**: [personal-portfolio-brown-rho.vercel.app](https://personal-portfolio-brown-rho.vercel.app)
+**Live**: [personal-portfolio-brown-rho.vercel.app](https://dhyey-portfolio.vercel.app)
 
 ---
 
@@ -86,7 +86,7 @@ src/
 This site runs on **dhyey.indevs.in** (via [Stackryze FreeDomains](https://github.com/stackryze/FreeDomains)).
 
 1. Claim subdomain at [domain.stackryze.com](https://domain.stackryze.com)
-2. Add CNAME → `personal-portfolio-brown-rho.vercel.app`
+2. Add CNAME → `dhyey-portfolio.vercel.app`
 3. Add domain in Vercel project settings
 
 ---
