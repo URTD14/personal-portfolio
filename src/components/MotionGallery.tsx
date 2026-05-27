@@ -1,6 +1,7 @@
 'use client';
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import RevealOnScroll from "./RevealOnScroll";
 
 const VIDEOS = [
   { src: "https://raw.githubusercontent.com/URTD14/motion-videos-resume/master/videos/branding/black-scholes.mp4", title: "Black-Scholes Model", duration: "0:27" },
@@ -43,14 +44,16 @@ export default function MotionGallery() {
 
   return (
     <section id="motion" className="px-6 py-24 max-w-[1200px] mx-auto">
-      <div className="text-center mb-14">
-        <h2 className="text-[clamp(2rem,4vw,3rem)] font-bold text-[#2C2C2A] mb-2">
-          Motion Design
-        </h2>
-        <p className="text-[1.05rem] text-[#6B6B68]">
-          Manim animations — AI, Math & Finance
-        </p>
-      </div>
+      <RevealOnScroll>
+        <div className="text-center mb-14">
+          <h2 className="text-[clamp(2rem,4vw,3rem)] font-bold text-[#2C2C2A] mb-2">
+            Motion Design
+          </h2>
+          <p className="text-[1.05rem] text-[#6B6B68]">
+            Manim animations — AI, Math & Finance
+          </p>
+        </div>
+      </RevealOnScroll>
 
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         {VIDEOS.map((video, i) => (

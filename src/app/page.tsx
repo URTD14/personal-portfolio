@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
+import Marquee from "@/components/Marquee";
 import MotionGallery from "@/components/MotionGallery";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
@@ -12,6 +13,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <Marquee />
         <About />
         <Projects />
         <MotionGallery />
