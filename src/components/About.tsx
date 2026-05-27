@@ -35,9 +35,7 @@ export default function About() {
           <strong className="text-[#B04A1C]">2026:</strong> Real cash flow via
           AI × Finance.
         </p>
-        <p className="text-[#6B6B68] text-[0.95rem] pt-4">
-          📍 Gandhinagar, India · 🎓 BTech CE @ IAR · 19
-        </p>
+
       </div>
     </section>
   );
