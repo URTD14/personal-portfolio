@@ -21,12 +21,12 @@ const PROJECTS = [
     stars: 1,
   },
   {
-    title: "from-scratch",
+    title: "Self-Healing RAG Pipeline",
     description:
-      "Deep learning from pure first principles. No abstractions hiding the math. Rebuilt before PyTorch gets it.",
-    href: "https://github.com/URTD14/from-scratch",
-    tags: ["Jupyter", "PyTorch"],
-    stars: 1,
+      "RAG system that critiques its own output and retries with reformulated queries. LangGraph + Groq + ChromaDB.",
+    href: "https://github.com/URTD14/self-healing-RAG-pipeline",
+    tags: ["Python", "LangGraph"],
+    stars: 0,
   },
   {
     title: "Compass for Vibecoders",
